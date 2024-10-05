@@ -43,7 +43,7 @@ TZ=America/Phoenix
 version: '3.8'
 services:
   pv2mqtt:
-    image: ghcr.io/wez/govee2mqtt:latest
+    image: ghcr.io/reisich/govee2mqtt:latest
     container_name: govee2mqtt
     restart: unless-stopped
     env_file:
